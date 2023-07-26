@@ -8,3 +8,21 @@ $ git commit -m "first commit"
 $ git branch -M main
 $ git remote add origin https://github.com/David138it/tProject.git
 $ git push -u origin main
+
+$ vim tFile1
+$ cat tFile1
+$ mkdir tProjects
+$ cd tProjects/
+$ vim tFile1
+$ cat tFile1
+$ git init
+$ git add .
+$ git commit -m "first commit"
+$ git branch -M main
+$ git remote add origin https://github.com/David138it/tProject.git
+$ git push -u origin main
+
+$ git status
+$ git add .
+$ git commit -m "Add information in the file"
+$ git push -u origin main
