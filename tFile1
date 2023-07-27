@@ -29,3 +29,8 @@ $ git push -u origin main
 
 $ git clone https://github.com/David138it/tProject
 $ cd tProject/
+
+$ git fetch origin
+$ cat tFile1 
+$ git merge
+$ cat tFile1
