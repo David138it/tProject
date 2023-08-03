@@ -30,3 +30,15 @@ $ git fetch origin
 $ cat tFile1 
 $ git merge
 $ cat tFile1
+Task:
+Sqlite 3
+Decision:
+$ sudo apt update
+$ sudo apt-cache search sqlite
+$ sudo apt install -y sqlite3
+Source:
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-sqlite-on-ubuntu-20-04
+Task:
+Install pip
+Decision:
+$ python -m pip install Pillow
