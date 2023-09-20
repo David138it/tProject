@@ -1,0 +1,13 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+    <title>{{ title }}</title>
+</head><body>
+{% block mainmenu %}
+    {% for i in menu %}
+    <p>{{i}}</p>
+    {% endfor %}
+{% endblock mainmenu %}
+{% block content %}
+{% endblock %}
+</body></html>
